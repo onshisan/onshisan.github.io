@@ -2,7 +2,7 @@
 layout: default
 ---
 <h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }} | {{ page.category | default: "Uncategorized"}}</p>
+<p class="meta">{{ page.date | date_to_string }} | {{ page.categories | default: "Uncategorized"}}</p>
 <h2>{{ page.summary | default: "¯\_(ツ)_/¯" }}</h2>
 <div class="post">
   {{ content }}
