@@ -15,14 +15,14 @@ title: Blog - Greg Smith
 	<ul>
 	{% for category in site.categories %}
 		<li>{{ category[0] }}</li>
-	{% endfor %}}
+	{% endfor %}
 	</ul>
 
 	<!-- {% assign site_categories = site.posts | map: "category" | uniq %}
 	<ul>
 		{% for category in site_categories %}
 		<li>{{ category }}</li>
-		{{% endfor %}
+		{% endfor %}
 	</ul> -->
 
 	<h2>Tags</h2>
