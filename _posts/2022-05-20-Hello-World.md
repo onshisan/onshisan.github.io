@@ -7,6 +7,7 @@ category: "News"
 categories:
 - News
 - Coding
+tags: github, jekyll
 ---
 
 This is a test post for my new site, which is powered by [Gibhub Pages](https://pages.github.com/)' [Jekyll](http://jekyllrb.com) features and was originally based on [jmcglone](https://github.com/jmcglone)'s [Quinlan](https://github.com/jmcglone/quinlan).
