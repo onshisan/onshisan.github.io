@@ -1,9 +1,4 @@
 name : Greg Smith
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-
-#Analytics
-analytics:
-provider: "google-gtag"
-google:
-measurement_id: G-T1DHRSPMVZ
+google_analytics: G-T1DHRSPMVZ
