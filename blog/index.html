@@ -15,6 +15,6 @@ title: Blog - Greg Smith
 	{% assign site_categories = site.posts | map: "category" | uniq %}
 	<li>
 		{% for category in site_categories %}
-		<ul>{{ category }}
+		<ul>{{ category }}</ul>
 		{% endfor %}
 	</li>
