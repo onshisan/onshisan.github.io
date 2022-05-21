@@ -11,10 +11,10 @@ title: Blog - Category
 	</ul>
 
 
-  <h2>Categories</h2>
+	<h2>Categories</h2>
 	{% assign site_categories = site.posts | map: "category" | uniq %}
 	<ul>
-		{% for post in category_posts %}
-		<li>{{ post.title }}</li>
+		{% for category in site_categories %}
+		<li>{{ category }}</li>
 		{% endfor %}
 	</ul>
