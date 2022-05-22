@@ -8,7 +8,12 @@ title: Blog - Greg Smith
 
 	  {% for post in site.posts %}
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-              <blockquote>{{ post.excerpt }}</blockquote>  
+		<blockquote>
+			<small>
+				{{ post.summary | default: "No summary" }}
+				{{ post.excerpt }} [<a href="{{ post.url }}">...</a>]</p>
+			</small>
+		</blockquote>  
 	  {% endfor %}
 	</ul>
 
