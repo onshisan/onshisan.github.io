@@ -3,8 +3,8 @@ layout: default
 ---
 <h1>{{ page.title }}</h1>
 <p class="meta">{{ page.date | date_to_string }}</p>
-<p class="meta">Category: {% for category in page.categories}{{ category[0] | default: "Uncategorized"}} {% endfor %}</p>
-<p class="meta">Tags: {% for tag in page.tags}{{ tag[0] | default: "Untagged"}} {% endfor %}</p>
+<p class="meta">Category: {% for category in page.categories %}{{ category[0] | default: "Uncategorized"}} {% endfor %}</p>
+<p class="meta">Tags: {% for tag in page.tags %}{{ tag[0] | default: "Untagged"}} {% endfor %}</p>
 <h2>{{ page.summary }}</h2>
 <div class="post">
   {{ content }}
