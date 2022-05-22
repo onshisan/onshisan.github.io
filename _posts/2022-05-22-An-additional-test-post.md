@@ -7,7 +7,7 @@ tags:
 ---
 
 The first post isn't always the most important is it?
-
+<!--more-->
 ## Heading
 Some content followed by a list:
 - Of items
