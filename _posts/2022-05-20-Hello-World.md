@@ -4,7 +4,7 @@ title: "Hello, World!"
 date: 2022-05-20
 summary: "Very first blog post, written during development. This summary was added later while additional features were being added."
 category: "News"
-categories: News Coding
+categories: News
 tags: github jekyll
 ---
 
