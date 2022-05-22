@@ -10,7 +10,7 @@ title: Blog - Greg Smith
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 		<blockquote>
 			<small>
-				{{ post.summary | default: "No summary" }}
+				{{ post.summary }}
 				{{ post.excerpt }} [<a href="{{ post.url }}">...</a>]</p>
 			</small>
 		</blockquote>  
