@@ -1,18 +1,29 @@
 CATEGORY,CODE,TITLE
-Indigenous Learning,K099,Reflecting on Cultural Bias: Indigenous Perspectives
-Indigenous Learning,K100,The Uncomfortable Truth: A Brief History of the Relationship Between Indigenous Peoples and the Government of Canada
-Indigenous Learning,K101,First Nations in Canada
-Indigenous Learning,K102,Métis in Canada
-Indigenous Learning,K103,Inuit in Canada
-Indigenous Learning,K111,Reconciliation: A Starting Point
 Information Management,I003,Fundamentals of Recordkeeping
 Information Management,I015,Access to Information and Privacy Fundamentals
 Information Management,I017,Big Data Fundamentals
-Information Management,I560,How Data Literate Are You? 
-Language,C170,Giving Your Opinion in French as a Second Language
-Language,C182,Grammar Capsules in French as a Second Language - Level B
-Language,C185,Introduction to French as a Second Language 1
-Language,E433,Master key competencies in oral and reading comprehension ? French as a Second Language
+Information Management,I560,How Data Literate Are You?
+Security,106,Introduction to ITSG-33
+Security,109,Cyber Security in the GC for IT Practitioners
+Security,110,Cyber Security in the GC and Online Exposure
+Security,115,Introduction to Cloud in the GC
+Security,601,Introduction to IT Security Management
+Security,604,IT Security Risk Management
+Security,606,IT Security Fundamentals for IT Practitioners
+Security,610,Digital Forensics
+Security,A230,Security Awareness
+Security,S004,Fire Safety and Prevention 
+Security,S202,Security Screening
+Public Administration,C215,Green Procurement
+Public Administration,C345,Workplace Accommodation for Federal Public Service Employees
+Public Administration,C355,Values and Ethics Foundations for Managers
+Public Administration,C400,Federal Basic Emergency Management
+Public Administration,C601,Phoenix Self-Service for Employees
+Public Administration,C605,Demystifying Your Pay Stub
+Public Administration,G340,Orientation to the Public Service
+Public Administration,H205,Inclusive Hiring Practices for a Diverse Workforce
+Public Administration,M712,Introduction to Contracting and Acquisition for the Non-Specialist
+Public Administration,P745,Employment Equity under the Employment Equity Act
 Management,E500,Harnessing Change
 Management,G140,Performance Management for the Government of Canada
 Management,G312,Becoming a Supervisor: The Basics
@@ -25,28 +36,17 @@ Management,T404,Risk Management Basics
 Management,W005,Understanding Unconscious Bias
 Management,W006,Overcoming Your Own Unconscious Biases
 Management,W007,Overcoming Unconscious Bias in the Workplace
-Management,W101,Harassment and Violence Prevention for Employees 
+Management,W101,Harassment and Violence Prevention for Employees
+Indigenous Learning,K099,Reflecting on Cultural Bias: Indigenous Perspectives
+Indigenous Learning,K100,The Uncomfortable Truth: A Brief History of the Relationship Between Indigenous Peoples and the Government of Canada
+Indigenous Learning,K101,First Nations in Canada
+Indigenous Learning,K102,Métis in Canada
+Indigenous Learning,K103,Inuit in Canada
+Indigenous Learning,K111,Reconciliation: A Starting Point
+Language,C170,Giving Your Opinion in French as a Second Language
+Language,C182,Grammar Capsules in French as a Second Language - Level B
+Language,C185,Introduction to French as a Second Language 1
+Language,E433,Master key competencies in oral and reading comprehension ? French as a Second Language
 Other,Z037,Skills for Interviewing
 Other,Z041,Mental Health: Awareness
 Other,Z077,Business Writing: Being Effective
-Public Administration,C215,Green Procurement
-Public Administration,C345,Workplace Accommodation for Federal Public Service Employees
-Public Administration,C355,Values and Ethics Foundations for Managers
-Public Administration,C400,Federal Basic Emergency Management
-Public Administration,C601,Phoenix Self-Service for Employees
-Public Administration,C605,Demystifying Your Pay Stub
-Public Administration,G340,Orientation to the Public Service
-Public Administration,H205,Inclusive Hiring Practices for a Diverse Workforce
-Public Administration,M712,Introduction to Contracting and Acquisition for the Non-Specialist
-Public Administration,P745,Employment Equity under the Employment Equity Act
-Security,106,Introduction to ITSG-33
-Security,109,Cyber Security in the GC for IT Practitioners
-Security,110,Cyber Security in the GC and Online Exposure
-Security,115,Introduction to Cloud in the GC
-Security,601,Introduction to IT Security Management
-Security,604,IT Security Risk Management
-Security,606,IT Security Fundamentals for IT Practitioners
-Security,610,Digital Forensics
-Security,A230,Security Awareness
-Security,S004,Fire Safety and Prevention 
-Security,S202,Security Screening
