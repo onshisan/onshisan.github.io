@@ -99,28 +99,8 @@
 	</ul>
 
 	<h3>Canada School of Public Service</h3>
-	<ul>
-		<li>A230 - Security Awareness</li>
-		<li>C215 - Green Procurement</li>
-		<li>C345 - Workplace Accommodation for Federal Public Service Employees</li>
-		<li>C355 - Values & Ethics Foundations for Managers</li>
-		<li>D002 - Occupational Health and Safety</li>
-		<li>E236 - Navigating Through Change</li>
-		<li>G240 - Performance Management for the Government of Canada</li>
-		<li>H205 - Inclusive Hiring Practices for a Diverse Workforce</li>
-		<li>I003 - Fundamentals of Recordkeeping</li>
-		<li>I015 - Access to Information and Privacy Fundamentals</li>
-		<li>M712 - Orientation to Contracting and Acquisition for the Non-Specialist</li>
-		<li>R901 - Project Management</li>
-		<li>ITSLC 601 - Introduction to IT Security Management</li>
-		<li>ITSLC 606 - IT Security Fundamentals for IT Practitioners</li>
-		<li>...</li>
-	</ul>
-
-        <ul>
-
-<ul>		
-{% for course in site.data.CSPS %}
-  <li>{{ course.CODE }} - {{ course.TITLE }}</li>
-{% endfor %}
-</ul>
+	<ul>		
+          {% for course in site.data.CSPS %}
+            <li>{{ course.CODE }} - {{ course.TITLE }}</li>
+          {% endfor %}
+        </ul>
