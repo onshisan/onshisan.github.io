@@ -116,3 +116,11 @@
 		<li>ITSLC 606 - IT Security Fundamentals for IT Practitioners</li>
 		<li>...</li>
 	</ul>
+
+        <ul>
+
+<ul>		
+{% for course in site.data.CSPS %}
+  <li>{{ course.CODE }} - {{ course.TITLE }}</li>
+{% endfor %}
+</ul>
