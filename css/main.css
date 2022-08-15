@@ -60,7 +60,7 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
-ul.resume li.resume {
+ul#resume {
     font-size: 0.8em;
     font-family:'Fira Code';
 }
