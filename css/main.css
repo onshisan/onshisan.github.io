@@ -73,7 +73,7 @@ h1 {
 }
 p {
     font-size: 1.5em;
-    font-family: 'Fira Code'
+    font-family: 'Helvetica', 'Arial', 'Sans-serif';
     line-height: 1.4em;
     color: #333;
 }
