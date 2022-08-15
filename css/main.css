@@ -60,6 +60,9 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+blurb ul li {
+    font-family:'Fira Code'
+}
 a {
     text-decoration: none;
     color: #999;
@@ -71,10 +74,20 @@ h1 {
     font-size: 3em;
     font-family:'Fira Code','Helvetica', 'Arial', 'Sans-Serif';
 }
-p {
+h2 {
     font-size: 1.5em;
+    font-family:'Fira Code','Helvetica','Arial', 'Sans-Serif';
+    font-weight: 500;
+}
+h3 {
+    font-size: 1.15em;
+    font-family:'Fira Code','Helvetica','Arial', 'Sans-Serif';
+    font-weight: 500;
+}
+p {
+    font-size: 1.0em;
     font-family: 'Fira Code';
-    line-height: 1.2em;
+    line-height: 1.1em;
     color: #333;
 }
 footer {
