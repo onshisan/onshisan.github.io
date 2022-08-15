@@ -1,8 +1,8 @@
-<h1>100 1# $aSmith, Gregory James,$d1982-</h1>
+<h1>245 10 $aLibrarian & Technologist $kRésumé/$cGreg Smith, MI</h1>
 <code>
 041 0# $aeng</br>
 043 ## $an-cn-on$cca</br>
-245 10 $aLibrarian & Technologist $kRésumé/$cGreg Smith, MI</br>
+100 1# $aSmith, Gregory James,$d1982-</br>
 505 0# $aEducation -- Employment -- Skills -- Awards & Recognition -- Certifications -- Training, Courses & Workshops.</br>
 521 3# $3Résumé$afor prospective employers, potential collaborators, and posterity.</br>
 522 ## $aToronto, Ontario, Canada.</br>
@@ -23,7 +23,7 @@
 	<p>Honours Bachelor of Arts, Political Science; Wilfrid Laurier University | 2005</p>
 
 	</br>
-	</br>	
+	</br>
 
 	<h2>Employment</h2>
 	<p>Systems Librarian (LS-3); Dept. of Justice Canada | 2018 - present</p>
@@ -64,7 +64,7 @@
 	</br>
 	</br>
 
-<!-- 	
+<!--
 	<h2>Licenses & Certificates</h2>
 	<p>Amateur Radio Operator Certificate, Basic with Honours (VE3XGS); Industry, Science, and Economic Development Canada</p>
 	<p>Restricted Operator Certificate - Maritime (ROC-M); Industry, Science, and Economic Development Canada</p>
@@ -72,34 +72,34 @@
 	<p>Pilot Certificate - Basic Operations; Transport Canada</p>
 
 	</br>
-	</br>	
+	</br>
 -->
 
 	<h2>Training, Courses & Workshops</h2>
 	
 	<h3>Google</h3>
-	<ul>
+	<ul id="resume">
 		<li><a href="https://www.coursera.org/account/accomplishments/verify/WGQAZRRVPUH3">Google Cloud Fundamentals: Core Infrastructure</a></li>
 	</ul>
 
 	<h3>The Linux Foundation</h3>
-	<ul>
+	<ul id="resume">
 		<li><a href="https://www.coursera.org/account/accomplishments/specialization/NZDQTRAW323A">Specialization in Open Source Software Development, Linux and Git</a></li>
 	</ul>
 
 	<h3>University of Toronto, iSchool Institute</h3>
-	<ul>
+	<ul id="resume">
 		<li>Certificate, Legal Research on the Web (PLC1007)</li>
 		<li>Certificate, Records Management Fundamentals (PLC6W02)</li>
 	</ul>
 
 	<h3>University of Toronto, School of Continuing Studies</h3>
-	<ul>
+	<ul id="resume">
 		<li>Knowledge Management (SCS 0219)</li>
 	</ul>
 
 	<h3>Canada School of Public Service</h3>
-	<ul>		
+	<ul id="resume">
           {% for course in site.data.CSPS %}
             <li>{{ course.CODE }} - {{ course.TITLE }}</li>
           {% endfor %}
