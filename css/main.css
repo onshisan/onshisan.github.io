@@ -73,16 +73,16 @@ a:hover {
 }
 h1 {
     font-size: 3em;
-    font-family:'Fira Code','Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Fira Code', 'Helvetica', 'Arial', 'Sans-Serif';
 }
 h2 {
     font-size: 1.5em;
-    font-family:'Fira Code','Helvetica','Arial', 'Sans-Serif';
+    font-family:'Fira Code', 'Helvetica','Arial', 'Sans-Serif';
     font-weight: 500;
 }
 h3 {
     font-size: 1.15em;
-    font-family:'Fira Code','Helvetica','Arial', 'Sans-Serif';
+    font-family:'Fira Code', 'Helvetica','Arial', 'Sans-Serif';
     font-weight: 500;
 }
 p {
@@ -99,6 +99,7 @@ footer {
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
+    font-family:'Fira Code', 'Helvetica', 'Arial', 'Sans-Serif';
 }
 
 ul.posts li {
